@@ -14,4 +14,12 @@ body {
     left: 0;
     padding: 10px;
   }
+  .marker {
+    background-image: url(google-maps-bus-icon-14.jpg.png);
+    background-size: cover;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    }
   

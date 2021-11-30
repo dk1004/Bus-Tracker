@@ -26,7 +26,9 @@ const busStops = [
   });
   
  //Marker for the first bus stop
-  let marker= new mapboxgl.Marker().setLngLat([-71.093729, 42.359244]).addTo(map);
+  let el = document.createElement('div');
+  el.className='marker';
+  let marker= new mapboxgl.Marker(el).setLngLat([-71.093729, 42.359244]).addTo(map);
   
   // counter here represents the index of the current bus stop
   let counter = 0;
